@@ -88,10 +88,6 @@ class App extends Component {
   }
 
   OnButtonSubmit = () => {
-    // app.models
-    //   .predict(
-    //     Clarifai.FACE_DETECT_MODEL,
-    //     this.state.inputField)
     fetch('https://stormy-eyrie-85177.herokuapp.com/imageurl/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
