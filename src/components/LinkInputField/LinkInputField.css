@@ -1,0 +1,31 @@
+
+
+::placeholder {
+  opacity: .3;
+}
+
+.btn {
+  margin-top: 1rem;
+  border-radius: 30px ; 
+}
+
+.btn:hover {
+	box-shadow: 30px 10px #888888;
+}
+
+.diplay-input-field {
+  width: 70%;
+  height: 185px;
+  margin: auto;
+  padding: 2rem;
+  margin-top: 3rem;
+  border-radius: 50px;
+}
+
+.blurred-box{
+  background-color: rgba(0, 0, 0, .2);
+  backdrop-filter: blur(10px);
+}
+
+
+

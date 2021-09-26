@@ -1,0 +1,16 @@
+
+.navBar {
+  text-decoration-line: underline !important;
+  font-size: 1.5rem; 
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: inherit;
+}
+
+a {
+  transition: color .3s;
+}
+a:hover {
+  color: grey;	
+}

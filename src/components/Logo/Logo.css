@@ -1,0 +1,12 @@
+
+.bg-attributes {
+  background: linear-gradient(to right, rgb(245, 52, 249), rgb(51, 185, 230));
+  height: 160px;
+  width: 160px;
+}
+
+.displayTilt {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}

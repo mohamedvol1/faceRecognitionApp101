@@ -1,0 +1,59 @@
+/*navigation bar style*/
+
+.navBar {
+  text-decoration-line: underline !important;
+  font-size: 1.5rem; 
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: inherit;
+}
+
+a {
+  transition: color .3s;
+  color: white;
+  text-decoration-line: underline;
+}
+a:hover {
+  color: #ff85f1;
+  cursor: pointer;	
+}
+
+/*registeration form style*/
+.register-display {
+  max-width: 35%;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: .5rem;
+}
+
+.register-box{
+  padding: 2rem;
+
+}
+
+h3{
+  color: #c5cfd9; 
+}
+
+.form-box{
+  background-color: rgba(0, 0, 0, .2);
+  backdrop-filter: blur(3px);
+  border-radius: .5rem;
+}
+
+.sign-in-btn {
+  border-radius: 50px;
+  width: 100px;
+  height: 60px;
+  margin-bottom: 2rem;
+}
+
+.waves-effect:hover {
+	box-shadow: 0px 0px;
+}
+
+/*Register Link*/
+
+
+
