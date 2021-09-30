@@ -2,7 +2,7 @@
   "name": "face-recognition-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mohamedvol1.github.io/face-recognition-app-101",
+  "homepage": "https://mohamedvol1.github.io/faceRecognitionApp101",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
