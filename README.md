@@ -1,5 +1,15 @@
 __You can find api source code [here](https://github.com/mohamedvol1/face-recognition-app-api).__
 
+
+## How to use
+
+- you register as a user by email
+- then you can choose any image from the web and copy its link and past it to the app prompt and the image should show up on the app page (if not double check the link or try another image because the link may be too long)
+- after click detect and it will put a blue square on the detected face use clarify API for face detection
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
