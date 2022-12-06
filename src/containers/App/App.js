@@ -88,7 +88,7 @@ class App extends Component {
   }
 
   OnButtonSubmit = () => {
-    fetch('https://stormy-eyrie-85177.herokuapp.com/imageurl/', {
+    fetch('/imageurl/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -99,7 +99,7 @@ class App extends Component {
     .then(response => {
       this.setfaceBox(this.caculateFaceBox(response))
       if(response) {
-        fetch('https://stormy-eyrie-85177.herokuapp.com/image/', {
+        fetch('/image/', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

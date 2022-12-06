@@ -28,7 +28,7 @@ class SignIn extends Component {
 
   onSignInSubmit = () => {
     console.log('data', this.state)
-    fetch('https://stormy-eyrie-85177.herokuapp.com/signin/', {
+    fetch('/signin/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
